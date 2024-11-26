@@ -1,0 +1,18 @@
+umap:
+  n_neighbors: YOUR_PARAMETER
+  min_dist: YOUR_PARAMETER
+  metric: YOUR_PARAMETER
+
+hdbscan:
+  min_cluster_size: YOUR_PARAMETER
+  min_samples: YOUR_PARAMETER
+  metric: YOUR_PARAMETER
+  cluster_selection_epsilon: YOUR_PARAMETER
+
+openai:
+  api_key: "YOUR_API_KEY"
+
+paths:
+  image_folder: "../images"
+  embedding_json: "../data/image_embeddings.json"
+  description_csv: "../data/descriptions.csv"

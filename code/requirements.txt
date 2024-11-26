@@ -1,0 +1,12 @@
+numpy==1.25.2
+pandas==2.0.3
+torch==2.0.1
+transformer
+open clip
+torchvision
+openai
+umap
+hdbscan
+flash_attn 
+einops 
+timm 
